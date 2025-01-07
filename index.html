@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <h1>Ranjeet</h1>
+                    <ul class="nav-2">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about"> About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+
+                </nav>
+                <!-- <div class="imag">
+                    <img src="photo.jpg">
+                </div> -->
+                
+                <div class="header-text">
+                    <div class="text1">
+                        <p>Frontend developer</p>
+                        <h1>Hi , I'm <span>Ranjeet</span> <br>kumar</h1>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/r__ranjeet_96?igsh=MWZkbXk3anZka2EzcQ=="><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.linkedin.com/in/ranjeet-kumar-93152a295?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFY%2FTax4QTTmgXhlZlLgT3Q%3D%3D"><i class="fab fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+                    
+                    <div class="image">
+                        <img src="newpic.jpg">
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+        <!------------- About---------- -->
+        <div id="about">
+            <div class="container ">
+                
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="photo.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        
+                        <h1 class="sub-title-about">About Me</h1>
+                        <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet
+                            sapien quis, elementum molestie tellus. Pellentesque habitant morbi tristique senectus et
+                            netus et malesuada fames ac turpis egestas. Mauris eleifend magna id ante convallis mattis.
+                            Quisque in sem tristique, dictum sapien et, accumsan libero.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Projects</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>C/C++</span><br></li>
+                                <li><span>javascript</span><br></li>
+                                <li><span>HTML</span><br></li>
+                                <li><span>CSS</span><br></li>
+                                <li><span>React_js</span><br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span><Em>landing page</Em></span><br> </li>
+                                <li><span>*****</span><br></li>
+                                <li><span>*****</span><br></li>
+                                <li><span>*****</span><br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019</span><br>*******************</li>
+                                <li><span>2021</span><br>***************</li>
+                                <li><span>2025</span><br>*************.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2 btn3  "> Download CV </a>
+                </div>
+            </div>
+            
+            
+        </div>
+
+        <!------- Services---- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="string">
+                    <svg width="1000" height="200"  xmlns="http://www.w3.org/2000/svg">
+                        <path d="M 10 100 Q 250 100 900 100" stroke="black" fill="transparent"/>
+                      </svg>
+            
+                </div>
+               
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Frontend developer</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet
+                            sapien quis.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>Frontend developer</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet
+                            sapien quis.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2>Frontend developer</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet
+                            sapien quis.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+
+                </div>
+                <a href="#" class="btn"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </div>
+
+        <!------- Portfolio---- -->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img
+                            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvamVjdHMlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D">
+                        <div class="layer">
+                            <h3>Projects name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ut earum est..
+                            </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img
+                            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <div class="layer">
+                            <h3>Projects name</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi aliquid excepturi
+                                quibusdam quos deleniti q.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img
+                            src="https://images.unsplash.com/photo-1518107616985-bd48230d3b20?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D">
+                        <div class="layer">
+                            <h3>Projects name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolore!.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img
+                            src="https://images.unsplash.com/photo-1518107616985-bd48230d3b20?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D">
+                        <div class="layer">
+                            <h3>Projects name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolore!.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img
+                            src="https://images.unsplash.com/photo-1518107616985-bd48230d3b20?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D">
+                        <div class="layer">
+                            <h3>Projects name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolore!.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img
+                            src="https://images.unsplash.com/photo-1518107616985-bd48230d3b20?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D">
+                        <div class="layer">
+                            <h3>Projects name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolore!.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="#" class="btn"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </div>
+
+        <!-------- --Contact------- -------->
+        <div id="contact">
+            <div class="container">
+                <h1 class="sub-title-3">Contact Me</h1>
+                <div class="row">
+                    <div class="contact-left">
+                        <!-- <h1 class="sub-title">Contact Me</h1> -->
+                        <p><i class="fas fa-paper-plane"></i> ranjeet9671k@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i> 0123456789</p>
+
+                        <a href="images/my-cv.pdf" download class="btn btn2 btn3">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <!-- name="submit-to-google-sheet" -->
+                        <form class="shadow">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <textarea id="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn4 " onclick="sendEmail()">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                
+                <p>Copyright © Ranjeet kumar <i class="fas fa-heart"></i> by <a
+                        href="https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA?sub_confirmation=1"></a></p>
+                <!-- <div class="btn7">
+                    <a href="#header">back</
+                </div> -->
+                
+                <a href="#about" class="btn"><i class="fa-solid fa-arrow-up"></i></a>
+            
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "YPUxVJ8GPqGvwxMQR",
+            });
+        })();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
