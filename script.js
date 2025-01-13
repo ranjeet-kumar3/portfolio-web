@@ -40,7 +40,7 @@ function sendEmail(){
     //     return; // Stop the function if any field is empty
     // } 
 
-    // emailjs.send("service_yehn5qi", "template_khhnck1", templateParms).then(alert("sent successfully!"))
+     emailjs.send("service_yehn5qi", "template_khhnck1", templateParms).then(alert("sent successfully!"))
     
 }
 
