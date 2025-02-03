@@ -124,9 +124,10 @@ nav h1{
     color: #d16ba5;
 }
 #text-p{
-    width: 50%;
-    font-size: 15px;
-    color: black;
+    width: 70%;
+    font-size: 24px;
+    color: #ffff;
+    font-weight: 500;
     
 }    
 /* .header-text .icon{
