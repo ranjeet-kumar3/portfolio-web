@@ -123,6 +123,12 @@ nav h1{
 .header-text h1 span{
     color: #d16ba5;
 }
+#text-p{
+    width: 50%;
+    font-size: 15px;
+    color: black;
+    
+}    
 /* .header-text .icon{
     margin-top: 20px;
     background-color: #ff004f;
